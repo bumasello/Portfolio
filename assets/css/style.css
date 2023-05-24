@@ -91,7 +91,7 @@ ul {
 }
 
 .descricao {
-  font-size: 15px;
+  font-size: 30px;
   grid-area: descricao;
 }
 
@@ -106,7 +106,7 @@ ul {
 }
 
 .meu-nome {
-  font-size: 7vh;
+  font-size: 10vh;
 }
 
 .linkedin {
