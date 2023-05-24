@@ -24,11 +24,12 @@
 }
 
 .style_menu {
-  font-size: 10px;
+  font-size: 3vh;
 }
 
 .img_logo {
-  width: 60px;
+  width: 10vh;
+
   height: fit-content;
 }
 
@@ -55,6 +56,11 @@ ul {
   align-items: center;
 }
 
+#sobremim {
+  width: 100%;
+  background-color: #8e5d52;
+}
+
 .altura-ajuste {
   width: 100%;
 }
@@ -70,8 +76,16 @@ ul {
   flex-wrap: wrap;
 }
 
+.ajustador_sec_2 {
+  padding: 144px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 67px;
+  max-width: 1064px;
+  margin: 0 auto;
+}
+
 .apresentacao {
-  margin-left: 30px;
   color: white;
   max-width: 750px;
 }
@@ -86,8 +100,13 @@ ul {
   margin: auto 50px;
 }
 
+.centralizador_sec_2 {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
 .meu-nome {
-  font-size: 25px;
+  font-size: 7vh;
 }
 
 .linkedin {
@@ -130,6 +149,14 @@ a {
   width: 150px;
 }
 
+.avatar {
+  width: 323px;
+  height: 368px;
+  position: relative;
+  cursor: pointer;
+  transition: ease 1s;
+}
+
 .desenho2 {
   max-height: 100%;
   max-width: 60%;
@@ -150,6 +177,26 @@ img {
   display: block;
   overflow-clip-margin: content-box;
   overflow: clip;
+}
+
+.sobre-mim {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sobre-mim p {
+  text-indent: 30px;
+  font-family: "Press Start 2P", cursive;
+  font-size: 20px;
+  color: white;
+  max-width: 609.25px;
+}
+
+h2 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 7vh;
+  color: white;
 }
 
 @keyframes pisca {
